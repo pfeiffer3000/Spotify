@@ -1,17 +1,18 @@
-import spotipy
 import os
-import codecs
-import datetime
+import io
 import re
+import codecs
 import base64
+import datetime
 import tkinter as tk
+from PIL import Image
 from tkinter import filedialog
 
+import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 from spotipy.oauth2 import SpotifyClientCredentials
 
-from PIL import Image
-import io
+
 
 # go here: https://developer.spotify.com/dashboard
 # to get id and secret
